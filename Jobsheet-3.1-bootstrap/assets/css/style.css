@@ -1,0 +1,29 @@
+/* Custom CSS pendukung Bootstrap SIMPUS-Mini */
+
+/* Warna Navbar & Hover Menu */
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #d9e8f5 !important;
+}
+
+/* Efek Hover Tombol Utama (Warna Biru Brand) */
+button[type="submit"]:hover,
+.btn[style*="#1d5b8a"]:hover {
+    background-color: #164869 !important;
+}
+
+/* ===== Hamburger Menu (checkbox hack) ===== */
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  display: none;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+}
