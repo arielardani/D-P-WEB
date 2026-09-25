@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIMPUS-Mini - Data Anggota</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SIMPUS-Mini</h1>
+
+        <button type="button" id="nav-toggle-btn" class="nav-toggle-label">
+            ☰
+        </button>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Dashboard</a></li>
+                <li><a href="../buku/list.html">Buku</a></li>
+                <li><a href="list.html">Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Data Anggota</h2>
+
+            <p>
+                <a href="tambah.html">+ Tambah Anggota</a>
+            </p>
+        </section>
+        <div class="search-box">
+            <label for="search-input">Cari Anggota</label>
+            <input type="text" id="search-input" placeholder="Ketik nama anggota...">
+        </div>
+        <section>
+
+            <div class="table-responsive">
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>Tanggal Dibuat</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>001</td>
+                            <td>Ariel</td>
+                            <td>ariel@email.com</td>
+                            <td>2026-09-01</td>
+                            <td>
+                                <a href="#">Edit</a> |
+                                <a href="#" class="btn-hapus">Hapus</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>002</td>
+                            <td>Budi</td>
+                            <td>budi@email.com</td>
+                            <td>2026-09-02</td>
+                            <td>
+                                <a href="#">Edit</a> |
+                                <a href="#" class="btn-hapus">Hapus</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>003</td>
+                            <td>Citra</td>
+                            <td>citra@email.com</td>
+                            <td>2026-09-03</td>
+                            <td>
+                                <a href="#">Edit</a> |
+                                <a href="#" class="btn-hapus">Hapus</a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini</p>
+    </footer>
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>
