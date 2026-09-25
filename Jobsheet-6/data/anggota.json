@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nama": "Siti Aminah",
+        "email": "siti@gmail.com"
+    },
+    {
+        "id": 2,
+        "nama": "Budi Santoso",
+        "email": "budi@gmail.com"
+    },
+    {
+        "id": 3,
+        "nama": "Andi Saputra",
+        "email": "andi@gmail.com"
+    },
+    {
+        "id": 4,
+        "nama": "Rina Lestari",
+        "email": "rina@gmail.com"
+    }
+]
